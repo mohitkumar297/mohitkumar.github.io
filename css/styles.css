@@ -61,6 +61,7 @@ display: block;
 }
 p{
     line-height: 2;
+}
 .alink:hover > *{
     color: black;
     /* border-color: #e4f9f5; */
