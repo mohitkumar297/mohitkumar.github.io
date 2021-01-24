@@ -56,9 +56,11 @@ display: block;
     margin-bottom: 50px;
 }
 .my-bio{
-    /* padding: 0 10%; */
+    padding: 0 15%; 
     line-height: 2.5;
 }
+p{
+    line-height: 2;
 .alink:hover > *{
     color: black;
     /* border-color: #e4f9f5; */
