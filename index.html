@@ -81,7 +81,9 @@
                     <h1 style="color: #29ab87;">I'm Mohit.</h1>
                     <h5>Mobile Application Developer and Fullstack Web Developer</h5>
                     <div class="top-btns top-buffer">
+                        <a href="mohit-resume.pdf" download>
                         <button class="btn btn-success resume-btn"><i class="fas fa-download"></i>  Download Resume</button>
+                    </a>
                         <a href="https://github.com/mohitkumar297" target="_blank"><button class="btn btn-outline-dark git-btn" ><i class="fab fa-github"></i>  Github</button></a>
                         
                     </div>
@@ -214,21 +216,25 @@
                                 </div>
                               </div>
                               <div class="col-lg-6">
-                                <form>
+                                <form action="https://formspree.io/f/myybobob" method="POST" id=my-form>
                                     <div class="mb-4">
-                                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+                                      <input type="text" name="name" class="form-control"  placeholder="Enter Name" required>
                                     </div>
                                     <div class="mb-4">
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                                        <input type="email" name="_replyto" class="form-control" placeholder="Email Address" required>
                                       </div>
                                       <div class="mb-4">
-                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject">
+                                        <input type="text" name = "Subject" class="form-control" placeholder="Subject">
                                       </div>
                                     <div class="mb-4">
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="4" placeholder="Message" required></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-success resume-btn" style="margin-bottom: 50px;;">Submit</button>
+                                    <button type="submit" class="btn btn-success resume-btn" style="margin-bottom: 50px;">Submit</button>
+                                    
                                   </form>
+                                  <div id="status">
+    
+                                </div>
                               </div>
                             </div>
                         </div>
